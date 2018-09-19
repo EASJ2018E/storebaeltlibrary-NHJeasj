@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <inheritdoc />
+            <summary>
+            Bil klassen, nedarver fra Køretøj klassen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Metode, der returnerer pris på bil
+            </summary>
+            <returns>
+            Returns pris på 240
+            </returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.TypeKøretøj">
+            <summary>
+            Metode, der returnerer type af køretøj
+            </summary>
+            <returns>
+            Returns "bil"
+            </returns>
+        </member>
+        <member name="T:BilletLibrary.Køretøj">
+            <summary>
+            Abstract klasse for køretøjer, som køretøjsklasse arver fra
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.Pris">
+            <summary>
+            Abstract metode, der skal overrides og angive pris på køretøj
+            </summary>
+            <returns>
+            Returns Pris i decimal
+            </returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.TypeKøretøj">
+            <summary>
+            Abstract metode, der skal overrides og angive type af køretøj
+            </summary>
+            <returns>
+            Returns type af "køretøj" i string
+            </returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.SkrivNummerplade(System.String)">
+            <summary>
+            Virtual metode, hvori nummerplade skrives ind. 
+            Kan overskrives
+            </summary>
+            <returns>
+            Returns string værdi for "nummerplade" på max 7 tegn
+            </returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <inheritdoc />
+            <summary>
+            MC klasse, der nedarver fra Køretøj klassen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            Metode, der returnerer MC's pris
+            </summary>
+            <returns>
+            Returns pris på 125
+            </returns>
+        </member>
+        <member name="M:BilletLibrary.MC.TypeKøretøj">
+            <summary>
+            Metode, der returnerer type af køretøj
+            </summary>
+            <returns>
+            Returns "MC"
+            </returns>
+        </member>
+    </members>
+</doc>
